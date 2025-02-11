@@ -57,7 +57,7 @@ export default function VoiceAssistants() {
         />
       </div>
       {/* Title */}
-      <h2 className="text-xl font-semibold flex-1">{assistant.name}</h2>
+      <h2 className="text-xl font-semibold text-black flex-1">{assistant.name}</h2>
       {/* Button */}
       <Link href={assistant.link} passHref>
         <span className="mt-4 inline-flex items-center gap-2 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 cursor-pointer">
