@@ -34,7 +34,7 @@ export default function VoiceAssistants() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-6">
-      <h1 className="text-3xl font-bold text-blue-600 text-center">Centralized AI Assistant</h1>
+      <h1 className="text-3xl font-bold text-blue-600 text-center">EchoAI Voice Assistants</h1>
       <p className="text-gray-600 mt-2 text-center max-w-md">
         Connect with businesses and institutions through AI-powered voice chat.
       </p>
@@ -57,7 +57,7 @@ export default function VoiceAssistants() {
         />
       </div>
       {/* Title */}
-      <h2 className="text-xl font-semibold flex-1">{assistant.name}</h2>
+      <h2 className="text-xl font-semibold text-black flex-1">{assistant.name}</h2>
       {/* Button */}
       <Link href={assistant.link} passHref>
         <span className="mt-4 inline-flex items-center gap-2 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 cursor-pointer">
